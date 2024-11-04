@@ -10,7 +10,7 @@ export default function Counter(props) {
     }
 
     const buttonStyle = {
-      backgroundColor: "black",
+      backgroundColor: props.color,
       color: "white",
       padding: props.size + "rem",
       borderRadius: "10px"

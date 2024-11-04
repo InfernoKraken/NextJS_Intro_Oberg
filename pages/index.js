@@ -15,8 +15,8 @@ export default function Home() {
       <h1 className={styles.title}>
         Cameron Oberg welcomes <a href="https://nextjs.org">Next.js!</a>
       </h1>
-      <Counter count={0} amount={1}  name={"Down for the count!"} size={1} />
-      <Counter count={0} amount={3} name={"This also counts, but by a factor of 3!"} size={3}/>
+      <Counter count={0} amount={1}  name={"Down for the count!"} size={1} color="green" />
+      <Counter count={0} amount={3} name={"This also counts, but by a factor of 3!"} size={3} color="red"/>
       <hr
         style={{
           width: "80%",
